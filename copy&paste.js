@@ -1,11 +1,12 @@
-var fs = require('fs');
+import {readFileSync, writeFileSync} from "fs"
 
 const leer =()=>{
-    let msj=fs.readFile('hola.txt') 
+    let msj=readFileSync('hola.txt').toString() 
     return msj
 }
 
 const escribir=()=>{
     let menaje= leer()
+    writeFileSync('chau.txt', menaje)
 }
-export default leer;
+export default escribir;

@@ -10,5 +10,15 @@
 // import crearAlu from "./alumno.js";
 // crearAlu("abril",1234)
 
-import leer from "./copy&paste.js";
-console.log(leer)
+// import escribir from "./copy&paste.js";
+// escribir()
+
+// import parsear from "./parsearUrl.js";
+// parsear();
+
+// import parsearUrl2 from "./ejer6.js";
+// parsearUrl2("h");
+
+import convertir from "./moneda.js"
+convertir();
+
