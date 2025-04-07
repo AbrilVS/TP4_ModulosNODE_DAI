@@ -20,5 +20,5 @@
 // parsearUrl2("h");
 
 import convertir from "./moneda.js"
-convertir();
+convertir("AR");
 
